@@ -17,6 +17,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
       </nav>
     </div>
+    <h1>Event For Good</h1>
   </header>
 
   <RouterView />
