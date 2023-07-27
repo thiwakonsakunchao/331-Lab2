@@ -1,8 +1,8 @@
 <template>
     <div class="event-class">
       <div class="event-card" style="text-align: right; font-size: 20px; font-weight: bold;">
-        <span>{{ event?.category }}</span>
-        <h4>{{ event?.organizer }}</h4>
+        <span>{{ event.category }} </span>
+        <h4>{{ event.organizer }}</h4>
       </div>
     </div>
   </template>
