@@ -3,8 +3,6 @@ import EventListView from '../views/EventListView.vue'
 import ShitView from '../views/ShitView.vue'
 import AboutView from '../views/AboutView.vue'
 
-
-
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -27,7 +25,6 @@ const router = createRouter({
       name: 'shit',
       component: ShitView
     }
-    
   ]
 })
 

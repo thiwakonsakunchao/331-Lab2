@@ -4,7 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header style="align-items: center; text-align: center; justify-content: center;">
+  <header style="align-items: center; text-align: center; justify-content: center">
     <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
 
     <div class="wrapper">
@@ -14,10 +14,8 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/shit">Shit</RouterLink>
-
       </nav>
     </div>
-   
   </header>
 
   <RouterView />
@@ -74,8 +72,6 @@ nav a:first-of-type {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
-    
-    
   }
 
   nav {

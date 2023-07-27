@@ -11,9 +11,9 @@
 import type { EventItem } from '@/type'
 import type { PropType } from 'vue'
 const props = defineProps({
-  event:{
+  event: {
     type: Object as PropType<EventItem>,
-      require: true
+    require: true
   }
 })
 </script>
